@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item android:drawable="@android:color/white" />
+    <item
+        android:id="@+id/resource01"
+        android:drawable="@drawable/resource01"
+        android:top="60dp"
+        android:width="240dp"
+        android:height="80dp"
+        android:gravity="center_horizontal" />
+    <item
+        android:drawable="@drawable/resource04"
+        android:height="400dp"
+        android:gravity="bottom"/>
+    <item
+        android:drawable="@drawable/resource03"
+        android:width="230dp"
+        android:height="40dp"
+        android:gravity="center_horizontal"
+        android:top="176dp"/>
+</layer-list>
