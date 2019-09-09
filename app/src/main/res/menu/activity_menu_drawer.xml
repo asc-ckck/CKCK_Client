@@ -3,35 +3,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
-    </group>
 
-    <item android:title="Communicate">
+    <item android:title="신고">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
+                android:id="@+id/report"
+                android:title="신고 접수 현황"
+                />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:id="@+id/saved"
+                android:title="임시저장"
+                />
+            <item
+                android:id="@+id/asked"
+                android:title="문의내역"
+                />
+        </menu>
+    </item>
+
+
+    <item android:title="등급">
+        <menu>
+            <item
+                android:id="@+id/rankGuide"
+                android:title="등급 안내표"
+                />
+            <item
+                android:id="@+id/point"
+                android:title="포인트 적립 현황"
+                />
+        </menu>
+    </item>
+
+
+    <item android:title="공지">
+        <menu>
+            <item
+                android:id="@+id/notice"
+                android:title="공지사항"
+                />
+            <item
+                android:id="@+id/service"
+                android:title="고객 센터"
+                />
+            <item
+                android:id="@+id/qNa"
+                android:title="자주 묻는 질문"
+                />
+            <item
+                android:id="@+id/versionInfo"
+                android:title="버전 정보"
+                />
         </menu>
     </item>
 
