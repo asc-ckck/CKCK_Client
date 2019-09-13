@@ -87,17 +87,21 @@ public class MenuActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
+        if (id == R.id.report) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.saved) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.asked) {
 
-        } else if (id == R.id.nav_tools) {
+        } else if (id == R.id.rankGuide) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.point) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.notice) {
+
+        } else if (id == R.id.qNa){
+
+        } else if (id == R.id.versionInfo){
 
         }
 
